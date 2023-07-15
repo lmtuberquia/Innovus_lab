@@ -55,6 +55,8 @@ python run_etl.py --date <date> --input <input_path> --output <output_table>
 
 In tackling this data engineering challenge, I followed a systematic approach to ensure the success and efficiency of the ETL process. Here's an overview of the key steps taken:
 
+0. **Creation Data Sets**: In order to properly test the pipeline, I have created sets of JSON files with similar structures. Additionally, I have included a program that can be used to generate more data sets if needed `DataCreation/create_datasets.py`. 
+
 1. **Data Extraction**: I developed the `DataExtractor` class to extract data from the input JSON files. This class handles file handling and JSON parsing, ensuring that the data is extracted accurately.
 
 2. **Data Transformation**: The extracted data is then transformed using the `DataTransformer` class. This class leverages the power of PySpark to perform complex transformations, such as exploding nested JSON arrays, flattening the data, and adding metadata columns.
@@ -106,6 +108,7 @@ This diagram showcases the star schema design used for the database, highlightin
 ![Database Schema](Diagrams/Diagrama3.svg)
 
 7. **Monthly Split of the View**: The views in the widget schema were designed to include a monthly split of the data based on a specific convention. The convention takes into consideration the current date, such as 2023-07-14, to determine the time period for each view.
+
 ![widget_view_summary](Diagrams/widget_views.png)
 
 This monthly split allows for easy and efficient access to historical data by organizing it into separate views based on specific time periods. It facilitates data analysis and reporting tasks, enabling users to focus on a particular month or compare data between different months or years
