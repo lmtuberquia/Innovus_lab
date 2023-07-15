@@ -2,6 +2,8 @@ import pytest
 from Utils.query_executor import QueryExecutor
 
 def test_execute_queries():
+    # TODO: : Due to lack of time, this test is not implemented completely
+    
     # Create a QueryExecutor instance
     # db_config = {
     #     "host": "localhost",
