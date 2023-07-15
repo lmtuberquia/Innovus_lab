@@ -1,0 +1,65 @@
+[
+  {
+    "customerId": "1",
+    "name": "Otto Schmidt",
+    "contactName": "Otto",
+    "country": "Germany",
+    "accountCreated": "2023-01-05",
+    "orders": [
+      {
+        "orderId": "1",
+        "orderDate": "2023-05-05"
+      },
+      {
+        "orderId": "2",
+        "orderDate": "2023-05-20"
+      },
+      {
+        "orderId": "10",
+        "orderDate": "2023-07-01"
+      }
+    ]
+  },
+  {
+    "customerId": "2",
+    "name": "Ana Trujillo",
+    "contactName": "Ana",
+    "country": "Mexico",
+    "accountCreated": "2023-02-15",
+    "orders": [
+      {
+        "orderId": "3",
+        "orderDate": "2023-06-15"
+      },
+      {
+        "orderId": "11",
+        "orderDate": "2023-07-02"
+      }
+    ]
+  },
+  {
+    "customerId": "3",
+    "name": "Jason Arnold",
+    "contactName": "Jason",
+    "country": "United States",
+    "accountCreated": "2023-03-10",
+    "orders": [
+      {
+        "orderId": "4",
+        "orderDate": "2023-05-20"
+      },
+      {
+        "orderId": "5",
+        "orderDate": "2023-06-10"
+      },
+      {
+        "orderId": "6",
+        "orderDate": "2023-06-15"
+      },
+      {
+        "orderId": "12",
+        "orderDate": "2029-07-05"
+      }
+    ]
+  }
+]

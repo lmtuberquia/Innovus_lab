@@ -1,0 +1,4 @@
+pytest~=7.4.0
+pyspark~=3.4.1
+mysql~=0.0.3
+mysql-connector-python~=8.0.33
